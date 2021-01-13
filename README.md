@@ -1,12 +1,20 @@
 # TianChiCeramic-2021
 
-## 训练数据文件结构
+## 数据文件结构
 
 ```
-└── dataset
+data
+└── tile_round1_train_20201231
     ├── Readme.md
     ├── train_annos.json
     └── train_imgs
+          └──*.jpg
+    
+data
+└── tile_round1_testA_20201231
+    └── testA_imgs
+          └──*.jpg
+ 
 ```
 train_imgs：训练图片数据，jpg格式
 train_annos.json：训练标注数据，json格式
